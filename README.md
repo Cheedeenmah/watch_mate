@@ -1,0 +1,1 @@
+the README.md file tell you how to configure the application
