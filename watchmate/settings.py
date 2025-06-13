@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ay9!&%ax)@tzjx)zv7oe49_k6x=kw87ra*7511m-bbui#xjkx&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['watchmate-ag9j.onrender.com']
 
 
 # Application definition
