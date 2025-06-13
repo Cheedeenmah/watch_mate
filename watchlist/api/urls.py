@@ -1,6 +1,6 @@
 from django . urls import path
 from .views import (StreamPlatformView, StreamPlatformDetailView, MovieListView,
-                     MovieDetailView, ReviewListCreateView , ReviewDetailView)
+                     MovieDetailView, ReviewListCreateView , ReviewDetailView, MovieListView01)
 
 
 urlpatterns = [
@@ -12,5 +12,7 @@ urlpatterns = [
 
     path("movie/<int:pk>/review/", ReviewListCreateView.as_view(), name="review-list"),
     path("review/<int:pk>/", ReviewDetailView.as_view(), name="review-detail"),
+
+    path ("movie-list/", MovieListView01.as_view(), name="movie-list-01"),
     
 ]
