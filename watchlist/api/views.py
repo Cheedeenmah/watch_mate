@@ -24,7 +24,7 @@ class StreamPlatformView(generics.ListCreateAPIView):
 class StreamPlatformDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = StreamPlatform.objects.all()
     serializer_class = StreamPlatformSerializer
-    permission_classes = [ReviewUserOrReadOnly]
+    # permission_classes = [ReviewUserOrReadOnly]
     
 
 class MovieListView01(generics.ListCreateAPIView):

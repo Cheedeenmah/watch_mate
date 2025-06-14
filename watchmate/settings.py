@@ -28,6 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['watchmate-ag9j.onrender.com']
 
 
+
 # Application definition
 
 INSTALLED_APPS = [
